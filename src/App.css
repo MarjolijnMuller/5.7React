@@ -1,1 +1,39 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #C1C7CD;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #083D77;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    color: #F4A810;
+}
+
+label {
+    color: #DB2955;
+}
+input, textarea, button {
+    color: #DB2955;
+    background-color: #D2B1B5;
+}
+
+button {
+    border: 1px solid #DB2955;
+    margin-top: 1rem;
+}
